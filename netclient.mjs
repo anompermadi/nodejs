@@ -10,5 +10,5 @@ client.addListener("data", (data)=>{
 });
 
 setInterval(()=>{
-    client.write("Anom\r\n");
+    client.write(`${process.argv[2]}\r\n`);
 }, 2000);
