@@ -16,5 +16,6 @@
     "npm"
   ],
   "author": "Arsenius Anom Permadi",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
