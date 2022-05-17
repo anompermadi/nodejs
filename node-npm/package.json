@@ -2,7 +2,10 @@
   "name": "node-npm",
   "version": "1.0.0",
   "description": "nodejs npm",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
   "homepage": "http://broanom.com",
   "repository": {
     "type": "git",
