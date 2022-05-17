@@ -9,6 +9,9 @@
     "url": "https://github.com/anompermadi/nodejs"
   },
   "scripts": {
+    "prestart": "echo 'Before Application Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start'",
     "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
